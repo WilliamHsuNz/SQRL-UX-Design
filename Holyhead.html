@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SQRL</title>
+<script></script>
+<style>
+	body {
+		margin: 0px;
+		background: #BCCF96;
+	
+	}
+
+	.header {
+		
+		margin: 0 auto;
+		min-width: 1000px; 
+		max-width: 1500px;
+		height:160px; 
+		background:url(quidditch6.jpg); 
+		background-size: 100% 100%;	
+	}
+	
+	.body {
+		
+		margin: 0 auto;
+		min-width: 1000px; 
+		max-width: 1500px;
+		height:600px; 
+		size: 100% 100%;
+	}
+	
+	a.logout  {
+	    color: #FEE997;
+	}
+	
+	/* mouse over link */
+	.logout:hover {
+	    color: #FEFDF2;
+	}
+	
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+    $(".joinRequest").click(function(){
+			$("#joinrequest").css('z-index','0');
+        $("#joinrequest").animate({left: '350px'}, "slow");
+		$(".messageSent").hide();
+    });
+
+	$(".sendRequest").click(function(){
+		$(".messageSent").show();
+	
+		
+		$('#joinrequest').css('z-index','0').delay(1300).animate({left: '-350px'}, "slow");
+		
+    });
+
+});
+
+
+</script>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="header">
+		<div>
+			<h1 style="float:left; margin-left:30px; margin-top: 20px;"><img style="position: absolute; margin-top:20px; margin-left:20px; width:250px; height:100px;"src="Golden_logo.png" alt=""/></h1>
+	
+	
+			<div style="float:right; color:#FEE997; height: 30px; width: 120px; margin-top: 70px; margin-right:30px;font-size: 8pt;">
+
+				<a href="Documentation.pdf" class="logout" style="text-decoration: underline;font-family: Verdana;"><b>Documentation</b></a>
+				<a href="Usability test.pdf" class="logout" style="text-decoration: underline;font-family: Verdana;"><b>Usability test</b></a></br></br>
+				<p style="font-family: verdana;"><b>Welcome Bazarov</b></br>
+				<a href="#" class="logout" style="text-decoration: underline; font-family: Verdana;"><b>Logout</b></a></p>
+			</div>	
+		</div>
+	</div>
+	
+	<div class="menu-wrap">
+	    <nav class="menu">
+	        <ul class="clearfix">
+	            <li><a href="prototype_home.html">Home</a></li>
+	            <li>
+	                <a href="#">Organise team<span class="arrow">&#9660;</span></a>
+
+	                <ul class="sub-menu" style = margin-left:"20px">
+	                    <li><a href="#">Edit team</a></li>
+	                    <li><a href="#">Create a team</a></li>
+	                    <li><a href="#">Join a team</a></li>
+	                </ul>
+	            </li>
+	            <li><a href="#">Schedules</a></li>
+	            <li><a href="#">Scoreboard</a></li>
+				<li><a href="#">Site Help</a></li>
+	        </ul>
+	    </nav>
+	</div>
+<div class= "body">
+	
+	<div id= "container">
+		
+		
+		<div id = "teams" style="float:left; position:absolute">
+			</br></br></br>
+				  <h1 Style="margin-left: 60px; color: #FEE997;">Teams matching your profile</h1>
+
+				  <nav>
+				    <ul>
+				      <li><a href="Moutohora.html" Style="font-family: Verdana; font-weight: bold;">Moutohora Macaws</a></li>
+				      <li><a href="Braga.html" Style="font-family: Verdana; font-weight: bold;">Braga Broomfleet</a></li>
+				      <li><a href="Chudley.html" Style="font-family: Verdana; 	font-weight: bold;">Chudley Cannons</a></li>
+				      <li><a href="Bigonville.html" Style="font-family: Verdana; 	font-weight: bold;">Bigonville Bombers</a></li>
+				      <li><a href="Montrose.html" Style="font-family: Verdana; 	font-weight: bold;">Montrose Magpie</a></li>
+				      <li><a href="Holyhead.html" Style="font-family: Verdana; 	font-weight: bold; ">Holyhead Harpies</a></li>
+				      <li><a href="Grodzisk.html" Style="font-family: Verdana; 	font-weight: bold;">Grodzisk Goblins</a></li>
+				      <li><a href="Vratsa.html" Style="font-family: Verdana; 	font-weight: bold;">Vratsa Vultures</a></li>
+				    </ul>
+				  </nav>
+
+		</div>
+		
+		
+		<div id = "team" style="float:left; font-family: Verdana; line-height: 22px">
+			</br></br></br>
+				<h2 style = "margin-left: 55px; font-size: 20px;">Holyhead Harpies</h2>
+<div class="logo"><img style="position: absolute; margin-top:40px; margin-left: 5px; width:130px; height:130px; "src="Holyhead_Harpies.png" alt=""/></div></br></br>
+				<p style = "margin-left: 55px; font-size: 13px;"><b>Chasers:</b></br>
+					Kathleen Hanna</br>
+					<p style = "margin-left: 55px; font-size: 13px; color: #6D0e0c">
+					*vacant*</br>
+					<p style = "margin-left: 55px; font-size: 13px; color: #6D0e0c">
+					*vacant*</br>		
+					</p>			
+					</p>
+					</br>
+				<p style = "margin-left: 55px; font-size: 13px;"><b>Beaters:</b></br>
+					Corin Tucker</br>
+					Luisa Hanae Matsushita</br>
+					</p>
+				
+					</br>
+				<p style = "margin-left: 55px; font-size: 13px;"><b>Keeper:</b></br>
+					Charlyn Marie Marshall
+					</p>
+					</p>
+					</br>
+				<p style = "margin-left: 55px; font-size: 13px;"><b>Seeker:</b></br>
+					Victoria Legrand</br>
+					</p>
+					</br></br>
+					<button class= "joinRequest" Style ="margin-left: 180px">Send a join request</button>
+		</div>			
+		<div style="margin-left: -1200px">
+			<div id="joinrequest">
+				
+				</br></br></br>
+				<div style = "margin-left:250px">
+					<textarea rows="28" cols="50"></textarea>
+					</br></br></br>
+
+					<p class="messageSent" style= "position:absolute; margin-top: -200px;"> Join request sent</p>
+
+					<button class = "sendRequest" style="margin-top: 5px; margin-left: 250px">Send request</button>
+					
+	
+				</div>	
+			
+					
+			</div>
+			
+			
+		</div>	
+	</div>	
+	
+</div>
+
+
+
+</body>
+
+</html>
