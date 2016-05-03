@@ -1,3 +1,4 @@
+#SQRL-UX-Design
 This is a HTML-based prototype for the Summer Quidditch Recreational League.  
 The prototype realised a user interface concept that allow registered users to 
 view the currently available teams and to send a join request to a team.  
